@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String dbURL = "jdbc:sqlserver://localhost:1433;databaseName=demo";
             String dbUsername = "sa";
-            String dbPassword = "tom18102001";
+            String dbPassword = "123456";
             Connection connection = DriverManager.getConnection(dbURL,
                     dbUsername, dbPassword);
             Statement statement = connection.createStatement(
